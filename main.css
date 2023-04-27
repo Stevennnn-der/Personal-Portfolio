@@ -1,0 +1,179 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(219, 231, 241);
+}
+
+.top-container{
+    background-image: url("https://media.istockphoto.com/id/825778252/photo/blue-sky-and-white-clouds-background.jpg?b=1&s=170667a&w=0&k=20&c=WdhScne5SJEMEJO1GGjDZeLAkQ7nJ-yoshNvUZPPODs=");
+    height: 90vh;
+    top:0;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+
+
+.top-container h1{
+    color: white;
+    font-size: 50px;
+    font-family: Cursive;
+    letter-spacing: 2px;
+    margin-bottom: 2em;
+}
+
+.text{
+    margin: 50px 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: .5px;
+}
+
+.navbar{
+    display: flex;
+    position: fixed;
+    background-image: linear-gradient(to right, rgb(230, 242, 242) , rgb(174, 228, 207));
+    width: 100%;
+    height: 80px;
+    top: 0;
+    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: background-color .4s;
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+    font-size: 25px;
+    font-family: Bradley Hand;
+}
+
+.navbar ul li a:hover{
+    color: grey;
+}
+
+.navbar.active{
+    background-color: black;
+}
+
+.navbar.active ul li a{
+    color: white;
+}
+
+@media (max-width:500px) {
+    .bottom-container{
+        padding: 10px;
+    }
+}
+
+.section-center{
+    font-family: sans-serif;
+    background: #FDEEDC;
+    color: grey;
+    width: cover;
+    margin: 0 auto;
+    
+    min-width: 340px;
+    padding: 5rem 0;
+}
+
+
+
+
+.section-center h1{
+    font-family: Verdana, Geneva, sans-serif;
+    margin-top: -1em;
+    margin-left: 1.5em;
+    padding: .5em;
+    
+}
+
+.image img{
+    display: block;
+    width: 90%;
+    border-radius: 0.5em;
+    object-fit: cover;
+    height: 30rem;
+    margin-bottom: 2rem;
+}
+
+.tabs{
+    margin: 2rem;
+    margin-top: 0.1rem;
+    margin-left: 4em;
+    background: #FFD8A9;
+    border-radius: .5rem;
+    grid-template-rows: auto 1fr;
+}
+
+.tabs-content{
+    margin: 1rem;
+    padding: 2rem 1.5rem;
+    letter-spacing: 0.3px;
+}
+    
+@media (min-width:992px){
+    .image{ 
+        margin-bottom: 0;
+    }
+    .section-center{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
+
+    }
+}
+
+.clock-body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 100vh;
+    justify-content: flex-start;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.clock{
+    position: absolute;
+    top: 13%;
+    right: 0;
+    display: flex;
+}
+
+.clock span{
+    display: inline-block;
+    margin-left: -3em;
+    width: 100px;
+    height: 80px;
+    opacity: 0.8;
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 22px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.3);
+}
+
+.clock #ampm{
+    bottom: 0;
+    margin-left: -37px;
+    margin-top: 0.1em;
+    width: 60px;
+    height: 30px;
+    font-size: 22px;
+    font-family: Georgia, serif;
+}
