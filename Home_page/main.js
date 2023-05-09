@@ -3,6 +3,10 @@ const hourE1 = document.getElementById("hour");
 const minuteE1 = document.getElementById("minutes");
 const secondE1 = document.getElementById("seconds");
 const ampmE1 = document.getElementById("ampm");
+const toggleBtn = document.querySelector(".toggle_btn");
+const toggleBtnIcon = document.querySelector(".toggle_btn i");
+const dropDownMenu = document.querySelector(".dropdown-menu")
+
 
 window.addEventListener("scroll", ()=>{
     updateImage();
@@ -40,4 +44,9 @@ function updateClock(){
     }, 1000);
 }
 
+toggleBtn.onclick = function () {
+    dropDownMenu.classList.toggle('open');
+    const isOpen = dropDownMenu.classList.contains('open');
 
+    toggleBtnIcon.classList = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars';
+}

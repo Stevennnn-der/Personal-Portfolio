@@ -49,3 +49,13 @@ span {
          
     }
 }
+
+.section-center h1 a {
+    text-decoration: none;
+    color:rgb(239, 116, 71);
+    transition: color 0.1s ease-in-out;
+}
+
+.section-center h1 a:hover {
+    color:rgb(245, 162, 89);
+}

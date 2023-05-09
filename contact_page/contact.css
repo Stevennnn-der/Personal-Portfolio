@@ -1,7 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-    background: rgb(250, 250, 208);
+    height: 80vh;
+    background: rgb(251, 251, 236);
     text-align: center;
     background-size: cover;
     background-position: center;
@@ -46,54 +47,60 @@ input {
 }
 
 form .submit {
-    background-color: #f4ae5e;
+    background-color: #f6c48c;
     border-color: transparent;
     font-size: 20px;
     letter-spacing: 1px;
     height: 50px;
     margin-top: 20px;
     border-radius: 0.5em;
+    margin-bottom: 3.5em;
 }
 
 form .submit:hover{
-    background-color: #f1c899;
+    background-color: #f3d3ae;
     cursor:pointer;
 }
 
-.contact-info {
-    display: flex;
-    position: fixed;
-    width: 100%;
-    height: 80px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    margin: 20px 0;
-  }
-  
-  .contact-info h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  
-  .contact-info ul {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .contact-info li {
-    margin: 5px;
-  }
-  
-  .contact-info a {
-    margin: 10px 10px;
-    text-decoration: none;
-    color: #333;
-  }
-  
-  .contact-info a:hover {
-    text-decoration: underline;
-  }
-  
+footer{
+  margin-top: 5%;
+  position: relative;
+  width: 100%;
+  height: 22%;
+  background: #58a9cb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.social {
+  display: flex;
+}
+
+.social a{
+  margin: 8px 10px;
+  margin-bottom: 25px;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #acebf1;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.social a:hover{
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+.end {
+  position: absolute;
+  color: #acebf1;
+  bottom: 5px;
+  font-size: 14px;
+}
