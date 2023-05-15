@@ -30,6 +30,7 @@ https://steven012820041010.github.io/Personal-Portfolio/Home_page/index.html
     The website is divided into separate HTML pages for easy navigation and to ensure a clear presentation of different sections.</li>
   
 </ul>  
-
+Let's Connect!
+Thank you for visiting my website! Feel free to explore, get inspired, and reach out. Let's connect and embark on exciting opportunities together. Remember, a little humor goes a long way, so enjoy the experience and keep smiling! 😄
 
 
