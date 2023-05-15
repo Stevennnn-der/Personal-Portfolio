@@ -132,8 +132,8 @@ header {
     color: rgb(255, 248, 237);
     line-height: 22px;
     height: calc(100px - 60px);
-    font-size: 20px;
-    font-family: arial;
+    font-size: 24px;
+    font-family: Bradley Hand;
 }
 
 .top-container .image img{

@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
+
     /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/  
 }
 
@@ -16,11 +17,11 @@ h1 {
 
 #particles-js {
     
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+}
+
+.contest-section {
+    position: relative;
+    z-index: 1;
 }
 
 .contest-section ul {
